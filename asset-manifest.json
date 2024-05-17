@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/appointmentplannercodecademy/static/js/main.d7b0b810.js",
+    "main.js": "/appointmentplannercodecademy/static/js/main.a7f91318.js",
     "index.html": "/appointmentplannercodecademy/index.html",
-    "main.d7b0b810.js.map": "/appointmentplannercodecademy/static/js/main.d7b0b810.js.map"
+    "main.a7f91318.js.map": "/appointmentplannercodecademy/static/js/main.a7f91318.js.map"
   },
   "entrypoints": [
-    "static/js/main.d7b0b810.js"
+    "static/js/main.a7f91318.js"
   ]
 }
