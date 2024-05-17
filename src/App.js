@@ -33,15 +33,16 @@ function App() {
   };
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/appointmentplannercodecademy" element={ <Root/> }>
-      <Route exact path="/appointmentplannercodecademy" element={ <Navigate to={ROUTES.CONTACTS} replace/> }/>
-      <Route path={ROUTES.CONTACTS} element={ <ContactsPage contacts={contacts} addContact={addContact} /> }/>
-      <Route path={ROUTES.APPOINTMENTS} element={ <AppointmentsPage appointments={appointments} addAppointment={addAppointment} contacts={contacts}/> }/>
+    <Route path="/appointmentplannercodecademy" element={<Root />}>
+      <Route exact path="/appointmentplannercodecademy" element={<ContactsPage contacts={contacts} addContact={addContact} />} />
+      <Route path={ROUTES.CONTACTS} element={<ContactsPage contacts={contacts} addContact={addContact} />} />
+      <Route path={ROUTES.APPOINTMENTS} element={<AppointmentsPage appointments={appointments} addAppointment={addAppointment} contacts={contacts} />} />
     </Route>
+
   ));
-  
+
   return (
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   );
 }
 
