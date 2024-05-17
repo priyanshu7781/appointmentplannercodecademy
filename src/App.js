@@ -33,8 +33,7 @@ function App() {
   };
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/" element={ <Root/> }>
-      <Route index element={ <Navigate to={ROUTES.CONTACTS} replace/> }/>
+    <Route path="/appointmentplannercodecademy" element={ <Root/> }>
       <Route path={ROUTES.CONTACTS} element={ <ContactsPage contacts={contacts} addContact={addContact} /> }/>
       <Route path={ROUTES.APPOINTMENTS} element={ <AppointmentsPage appointments={appointments} addAppointment={addAppointment} contacts={contacts}/> }/>
     </Route>
