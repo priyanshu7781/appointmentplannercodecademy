@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.fa388f14.js",
-    "index.html": "/index.html",
-    "main.fa388f14.js.map": "/static/js/main.fa388f14.js.map"
+    "main.js": "/appointmentplannercodecademy/static/js/main.fa388f14.js",
+    "index.html": "/appointmentplannercodecademy/index.html",
+    "main.fa388f14.js.map": "/appointmentplannercodecademy/static/js/main.fa388f14.js.map"
   },
   "entrypoints": [
     "static/js/main.fa388f14.js"
